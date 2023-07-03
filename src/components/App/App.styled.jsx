@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: linear-gradient(180deg, #2a57ec6b, #b6ec427a);
   padding: 25px;
-  margin: 0 auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +12,7 @@ export const Container = styled.div`
   min-height: 550px;
   padding-top: 25px;
   width: 500px;
+  margin-bottom: 25px;
 `;
 
 export const Wrapper = styled.div`
